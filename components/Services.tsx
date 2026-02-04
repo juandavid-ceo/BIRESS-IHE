@@ -18,9 +18,9 @@ const servicesData: Service[] = [
     title: "Mantenimiento Correctivo y Reparaciones",
     description: [
       "Diagnóstico y reparación experta de bombas.",
-      "Cambio de rodamientos e impulsores con repuestos premium.",
+      "Cambio de rodamientos, impulsores, sello mecánico, entre otros repuestos según el requerimiento de la Electrobomba.",
       "Bobinado profesional de motores.",
-      "Asesoría sobre reparación vs. reemplazo."
+      "Asesoría sobre reparación o reemplazo."
     ],
     benefit: "Equipos restaurados por expertos, con repuestos de calidad y diagnósticos honestos.",
     icon: ( <svg xmlns="http://www.w3.org/2000/svg" className="h-12 w-12" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M11 4a2 2 0 114 0v1a1 1 0 001 1h3a1 1 0 011 1v3a1 1 0 01-1 1h-1a2 2 0 100 4h1a1 1 0 011 1v3a1 1 0 01-1 1h-3a1 1 0 01-1-1v-1a2 2 0 10-4 0v1a1 1 0 01-1 1H7a1 1 0 01-1-1v-3a1 1 0 00-1-1H4a2 2 0 110-4h1a1 1 0 001-1V7a1 1 0 011-1h3a1 1 0 001-1V4z" /></svg> )
@@ -53,7 +53,7 @@ const servicesData: Service[] = [
       "Instalación de tubería de acero inoxidable calibre 40 para máxima durabilidad.",
       "Aplicación de sellantes de alta calidad para uniones herméticas.",
       "Uso de herramientas especializadas para cortes y ensambles de precisión.",
-      "Empleo de teflón americano de alta presión para estanqueidad superior."
+      "Empleo de teflón americano de alta presión para una hermetización superior."
     ],
     benefit: "Sistemas de tuberías robustos y libres de fugas, que aseguran la pureza del agua y minimizan costos de mantenimiento a largo plazo.",
     icon: ( <svg xmlns="http://www.w3.org/2000/svg" className="h-12 w-12" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 14v-4a2 2 0 00-2-2H9a2 2 0 00-2 2v4m10 0v2a2 2 0 01-2 2H9a2 2 0 01-2-2v-2m10 0h2a2 2 0 002-2V8a2 2 0 00-2-2h-2m-8 0H5a2 2 0 00-2 2v4a2 2 0 002 2h2" /></svg> )
@@ -62,9 +62,10 @@ const servicesData: Service[] = [
     title: "Lavado de Tanques de Reserva de Agua Potable",
     description: [
       "Procedimiento de vaciado controlado y limpieza inicial para remover sedimentos gruesos.",
-      "Lavado a presión de paredes y superficies con desengrasantes biodegradables.",
+      "Lavado a presión de paredes y superficies.",
       "Aplicación de hipoclorito de sodio en concentraciones normativas para una desinfección total.",
-      "Inspección visual final y entrega de certificado de lavado y desinfección."
+      "Inspección final, recomendaciones si aplica, llenado del tanque y funcionamiento del mismo.",
+      "Certificado del lavado del tanque valor adicional."
     ],
     benefit: "Asegura la pureza del agua potable, cumple con la normativa sanitaria vigente y previene la formación de biopelículas, protegiendo la salud de la comunidad.",
     icon: ( <svg xmlns="http://www.w3.org/2000/svg" className="h-12 w-12" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" /></svg> )
@@ -73,7 +74,7 @@ const servicesData: Service[] = [
     title: "Desarenado para Cárcamo de Aguas Lluvias",
     description: [
       "Extracción de sedimentos (arena, lodo) para asegurar un drenaje óptimo.",
-      "Limpieza profunda para prevenir obstrucciones en bombas y tuberías."
+      "Limpieza profunda para prevenir obstrucciones en bombas, tuberías, prevenir posibles atascamientos y averías en las bombas eyectoras."
     ],
     benefit: "Prolonga la vida útil de las bombas eyectoras, previene atascamientos y evita inundaciones.",
     icon: ( <svg xmlns="http://www.w3.org/2000/svg" className="h-12 w-12" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 4a1 1 0 011-1h16a1 1 0 011 1v2a1 1 0 01-.293.707L16 11.414V16a1 1 0 01-.293.707l-2 2A1 1 0 0113 18v-1.586l-1.707-1.707A1 1 0 0111 14V11.414L3.293 6.707A1 1 0 013 6V4z" /></svg> )

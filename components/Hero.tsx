@@ -13,7 +13,7 @@ const Hero: React.FC = () => {
     <section id="hero" className="bg-gradient-to-br from-blue-900 to-gray-900 text-white">
       <div className="container mx-auto px-6 py-20 text-center">
         <h1 className="font-teko text-5xl md:text-7xl font-bold uppercase tracking-wide leading-tight">
-          Más de 35 Años de Experiencia al Servicio de la <span className="text-orange-500">Confiabilidad</span>
+          Más de 20 Años de Experiencia al Servicio de la <span className="text-orange-500">Confiabilidad</span>
         </h1>
         <p className="mt-4 text-xl md:text-2xl text-gray-300 max-w-3xl mx-auto">
           Expertos que mantienen sus sistemas vitales en óptimo funcionamiento: La experiencia de décadas a su alcance.
